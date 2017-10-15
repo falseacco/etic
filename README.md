@@ -1,2 +1,2 @@
-# snips-and-snails
+# etic
 snip snip snip
