@@ -1,0 +1,57 @@
+body {
+    background-color: #ECF0E7;
+}
+
+#title-block {
+    padding: 1px 0px 1px 0px;
+    margin-bottom: 2px;
+    color: #ECF0E7;
+    background-color: #5C5457;
+}
+
+#title-main {
+    padding-left: 30px;
+}
+
+.stream {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 2px;
+}
+
+.live-stream {
+    background-color: #B8CCA6;
+}
+
+.dead-stream {
+    background-color: #4A5E82;
+}
+
+.stream-title {
+    text-decoration: none;
+}
+
+.live-stream .stream-title {
+    color: #4A5E82;
+}
+
+.dead-stream .stream-title {
+    color: #B8CCA6;
+}
+
+.stream-title:hover {
+    text-decoration: underline;
+}
+
+.live-stream .stream-status {
+    color: #5C5457;
+}
+
+.dead-stream .stream-status {
+    color: #85A7C0;
+}
+
+.stream-logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
