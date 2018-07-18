@@ -1,0 +1,24 @@
+(:max
+ :before-mods (:indirect :range-max -1)
+
+ :d2d-mods ((:direct :attack 1.5)
+            (:indirect :attack 0.9)
+	    (:indirect :defense 1.1))
+	   
+ :cop-mods ((:direct :attack 1.7)
+            (:direct :move :+ 1)) ; I think indirects are at 0.99?
+
+ :norm-mods ((:attack 1.1)
+             (:defense 0.9))) ; norm-mods during cop, more like
+
+(:kanbei
+ :before-mods (:all :price 1.2) ; shoddy
+
+ :d2d-mods ((:all :attack 1.2)
+            (:all :defense 0.8))
+
+ :cop-mods ((:all :attack 1.4)
+            (:all :defense 0.7))
+
+ :norm-mods ((:attack 1)
+(:defense 1)))
