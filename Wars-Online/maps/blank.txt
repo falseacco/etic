@@ -1,0 +1,8 @@
+(:aw1 :aw2)
+(5 5)
+
+(((:p) (:p) (:p) (:p) (:p))
+ ((:p :unit (:TYPE :LIGHT-TANK :TEAM 2 :HP 100 :FUEL 70 :AMMO 9)) (:p) (:p :unit (:TYPE :LIGHT-TANK :TEAM 1 :HP 100 :FUEL 70 :AMMO 9)) (:s) (:p))
+ ((:p) (:p) (:p :unit (:TYPE :MECH :TEAM 2 :HP 100 :FUEL 70 :AMMO 3)) (:s) (:p))
+ ((:p) (:p) (:p) (:s) (:p))
+((:p) (:p) (:p) (:p) (:p)))
