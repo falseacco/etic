@@ -1,0 +1,82 @@
+;; Use in-game names from wwn
+(:infantry
+ :type :infantry
+
+ :wpn2-name "M Gun"
+ :wpn2-range 1
+
+ :move-type :infantry
+ :move-range 3
+ :move-fuel 99
+
+ :vision 2)
+
+(:mech
+ :type :mech
+
+ :wpn1-name "Bazooka"
+ :wpn1-range 1
+ :wpn1-ammo 3
+
+ :wpn2-name "M Gun"
+ :wpn2-range 1
+
+ :move-type :mech
+ :move-range 2
+ :move-fuel 70
+
+ :vision 2)
+
+(:light-tank
+ :type :light-tank
+
+ :wpn1-name "Cannon"
+ :wpn1-range 1
+ :wpn1-ammo 9
+
+ :wpn2-name "M Gun"
+ :wpn2-range 1
+
+ :move-type :treads
+ :move-range 6
+ :move-fuel 70
+
+ :vision 3)
+
+(:artillery
+ :type :artillery
+
+ :wpn1-name "Cannon"
+ :wpn1-range (2 3)
+ :wpn1-ammo 9
+
+ :move-type :treads
+ :move-range 5
+ :move-fuel 50
+
+ :vision 1)
+
+(:apc
+ :type :apc
+
+ :move-type :treads
+ :move-range 6
+ :move-fuel 70
+
+ :vision 1)
+
+(:battle-copter
+ :type :battle-copter
+
+ :wpn1-name "Missiles"
+ :wpn1-range 1
+ :wpn1-ammo 6
+
+ :wpn2-name "M Gun"
+ :wpn2-range 1
+
+ :move-type :air
+ :move-range 6
+ :move-fuel 99
+
+:vision 3)
