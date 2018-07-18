@@ -1,0 +1,112 @@
+;; https://www.gamefaqs.com/gba/471043-advance-wars/faqs/14092
+
+;;
+(:p
+  :name "Plain"
+  :stars 1
+  :tires 2
+  :treads 1
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:w
+  :name "Wood"
+  :stars 2
+  :tires 3
+  :treads 2
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:r
+  :name "Rivr"
+  :stars 0
+  :tires nil
+  :treads nil
+  :infantry 2
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:r
+  :name "Road"
+  :stars 0
+  :tires 1
+  :treads 1
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:b
+  :name "Bridge"
+  :stars 0
+  :tires 1
+  :treads 1
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:m
+  :name "Mt"
+  :stars 4
+  :tires nil
+  :treads nil
+  :infantry 2
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:c
+  :name "City"
+  :stars 3
+  :tires 1
+  :treads 1
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+  :sea-transport nil)
+
+(:s
+  :name "Sea"
+  :stars 0
+  :tires nil
+  :treads nil
+  :infantry nil
+  :mech nil
+  :air 1
+  :sea 1
+  :sea-transport 1)
+
+(:rf
+  :name "Reef"
+  :stars 1
+  :tires nil
+  :treads nil
+  :infantry nil
+  :mech nil
+  :air 1
+  :sea 2
+  :sea-transport 2)
+
+(:sh
+  :name "Shoal"
+  :stars 0
+  :tires 1
+  :treads 1
+  :infantry 1
+  :mech 1
+  :air 1
+  :sea nil
+:sea-transport 1)
