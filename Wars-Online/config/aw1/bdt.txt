@@ -1,0 +1,39 @@
+(:infantry
+  :infantry (NIL 55)
+  :mech (NIL 45)
+  :light-tank (NIL 5)
+  :artillery (NIL 15)
+  :apc (NIL 14)
+  :battle-copter (NIL 7))
+
+(:mech
+  :infantry (NIL 65)
+  :mech (NIL 55)
+  :light-tank (55 6)
+  :artillery (70 32)
+  :apc (75 20)
+  :battle-copter (NIL 9))
+
+(:light-tank
+  :infantry (NIL 75)
+  :mech (NIL 70)
+  :light-tank (55 6)
+  :artillery (70 45)
+  :apc (75 45)
+  :battle-copter (NIL 10))
+
+(:artillery
+  :infantry (90 NIL)
+  :mech (85 NIL)
+  :light-tank (70 NIL)
+  :artillery (75 NIL)
+  :apc (70 NIL)
+  :battle-copter (NIL NIL))
+
+(:battle-copter
+  :infantry (NIL 75)
+  :mech (NIL 75)
+  :light-tank (55 6)
+  :artillery (65 25)
+  :apc (60 20)
+:battle-copter (NIL 65))
